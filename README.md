@@ -1,5 +1,6 @@
 📹 Proyecto de Creación de Videos Automáticos desde YouTube
 Este proyecto automatiza la creación de videos estilizados a partir de audios o videos descargados de YouTube, generando imágenes sincronizadas y animaciones llamativas usando Python, Whisper, WhisperX, Pillow y FFmpeg.
+
 🛠️ Origen del Proyecto
 La primera parte del proyecto —que incluye la descarga de videos de YouTube usando pytube y la transcripción automática usando Whisper— fue adaptada inicialmente de un cuaderno de Colab genérico encontrado en internet.
 Por esa razón, en esa sección es posible encontrar comentarios en inglés o fragmentos de código que no siguen exactamente el mismo estilo del resto del proyecto.
@@ -7,6 +8,7 @@ Por esa razón, en esa sección es posible encontrar comentarios en inglés o fr
 Estos comentarios heredados no afectan el funcionamiento, pero a futuro podría ser buena idea limpiar y unificar todo el código para que sea más coherente y esté 100% documentado en español.
 
 Posteriormente, el resto del flujo (procesamiento de palabras, generación de imágenes con Pillow y ensamblaje de video con ffmpeg) fue desarrollado de manera personalizada para adaptarse al objetivo final del proyecto.
+
 ☁️Trabajo en Google Colab
 Todo el desarrollo de este proyecto se realizó en Google Colab para aprovechar su entorno basado en la nube, acceso rápido a GPUs (si es necesario) y facilidad de compartir.
 Por esta razón, el flujo completo (descarga de videos, transcripción, generación de imágenes y creación del video final) está organizado en un cuaderno en formato .ipynb (Jupyter Notebook), lo cual permite:
